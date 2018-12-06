@@ -11,10 +11,10 @@ int main(void)
 	printf("Enter your name: ");
 	scanf("%s", &name);
 
-	printf("Enter height: ");
+	printf("Enter height (In meters): ");
 	scanf("%lf", &height);
 
-	printf("Enter weight: ");
+	printf("Enter weight (In kilograms): ");
 	scanf("%lf", &weight);
 
 	division = weight / height;
